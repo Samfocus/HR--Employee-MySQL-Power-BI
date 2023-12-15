@@ -30,6 +30,13 @@ Data Visualization - PowerBI
 
 11. What is the tenure distribution for each department?
 
+
+##
+![Screenshot 2023-12-15 031845](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/9eaf12d8-7a06-4506-a9f1-0b1cb368a649)
+
+##
+![Screenshot 2023-12-15 032855](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/35d7fb2c-37d1-4fab-a4f9-2dbbbc9a0817)
+
 ## Summary of Findings
 There are more male employees
 
