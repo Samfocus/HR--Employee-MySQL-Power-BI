@@ -7,6 +7,9 @@ Data Cleaning & Analysis - MySQL Workbench
 
 Data Visualization - PowerBI
 
+## Project Task
+Conduct a comprehensive data analysis on the HR dataset to extract actionable insights related to employee retention, demographics, and tenure. Uncover patterns and trends that inform strategic decisions aimed at optimizing workforce retention  and promoting a diverse, inclusive, and engaged workplace. 
+
 ## Questions
 1. What is the gender breakdown of employees in the company?
 
@@ -31,36 +34,74 @@ Data Visualization - PowerBI
 11. What is the tenure distribution for each department?
 
 
-##
-![Screenshot 2023-12-15 031845](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/9eaf12d8-7a06-4506-a9f1-0b1cb368a649)
+## ![Screenshot 2023-12-15 031845](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/9eaf12d8-7a06-4506-a9f1-0b1cb368a649)
 
-##
-![Screenshot 2023-12-15 032855](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/35d7fb2c-37d1-4fab-a4f9-2dbbbc9a0817)
+## ![Screenshot 2023-12-15 032855](https://github.com/Samfocus/HR--Employee-MySQL-Power-BI/assets/152339100/35d7fb2c-37d1-4fab-a4f9-2dbbbc9a0817)
 
-## Summary of Findings
-There are more male employees
+## Key Findings and Insights
 
-White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
+1. Gender Distribution:
 
-The youngest employee is 20 years old and the oldest is 57 years old
+The workforce is predominantly male, suggesting potential areas for gender balance initiatives.
 
-5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
+2. Racial Demographics:
 
-A large number of employees work at the headquarters versus remotely.
+White employees constitute the majority, emphasizing the need to enhance diversity, especially among Native Hawaiian and American Indian populations.
 
-The average length of employment for terminated employees is around 7 years.
+3. Age Group Composition:
 
-The gender distribution across departments is fairly balanced but there are generally more male than female employees.
+Employees are categorized into four age groups (18-28, 29-39, 40-50, 51-60).
+The largest age group is 25-34, followed by 35-44, with a smaller representation in the 55-64 group.
 
-The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
+4. Age Extremes:
 
-A large number of employees come from the state of Ohio.
+The youngest employee is 20 years old, while the oldest is 57, showcasing a diverse age range.
 
-The net change in employees has increased over the years.
+5. Work Location Preferences:
 
-The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
+A substantial number of employees prefer working at the headquarters, indicating potential areas for optimizing remote work experiences.
 
-## Limitations
-Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
+6. Employee Tenure:
 
-Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+The average length of employment for terminated employees is approximately 8 years, suggesting organizational stability.
+
+7. Gender Distribution Across Departments:
+
+Gender distribution across departments is relatively balanced, though there is a general trend of more males than females in the workforce.
+
+8. Departmental Turnover Rates:
+
+The Marketing department exhibits the highest turnover rate, followed by Training.
+Departments with the least turnover include Research and Development, Support, and Legal.
+
+9. Regional Workforce Composition:
+
+A significant proportion of employees hail from the state of Ohio, influencing the regional diversity landscape.
+
+10. Net Change in Workforce:
+
+Over the years, there has been a noticeable increase in the net number of employees, reflecting organizational growth.
+
+11. Departmental Average Tenure:
+
+The average tenure across departments is approximately 8 years.
+Legal and Auditing departments have the highest tenure, while Services, Sales, and Marketing have the lowest.
+
+
+
+## Limitation of Workforce Analysis:
+
++ Negative Ages:
+
+Issue: Some records presented negative ages.
+
+Action Taken: These records (967) were excluded from the analysis. The focus was on ages 18 and above.
+
++ Future Termination Dates:
+
+Issue: Some termination dates extended far into the future.
+
+Action Taken: Records with termination dates beyond the current date (1599) were omitted from the analysis. Only current or past termination dates were considered.
+
+## Conclusion:
+Note: Despite these limitations, these findings provide valuable insights into our workforce dynamics, offering a foundation for strategic decision-making to enhance diversity, optimize employee experiences, and foster long-term organizational success. It is recommended to address data quality concerns for more comprehensive future analyses.
